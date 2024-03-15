@@ -1,27 +1,27 @@
 [
     {
         "role": "owner",
-        "name": "List Owner",
+        "name": "Voiddle",
         "link": "https://www.youtube.com/@Prometheus_Alt"
     },
     {
-        "role": "admin",
+        "role": "voiddle",
         "name": "List Admin",
         "link": "https://www.youtube.com/@Prometheus_Alt"
     },
     {
         "role": "helper",
-        "name": "List Helper",
+        "name": "also Voiddle",
         "link": "https://www.youtube.com/@Prometheus_Alt"
     },
     {
         "role": "trial",
-        "name": "Trial List Helper",
+        "name": "Voiddle+",
         "link": "https://www.youtube.com/@Prometheus_Alt"
     },
     {
         "role": "dev",
-        "name": "List Coder",
+        "name": "elddioV",
         "link": "https://www.youtube.com/@Prometheus_Alt"
     }
 ]
