@@ -1,9 +1,12 @@
 {
     "id": 57436521,
     "name": "Acropolis",
-    "author": "Different Publisher",
-    "creators": ["Solo_Creator"],
-    "thumbnail": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+    "author": "Zobros",
+    "creators": ["Creator1", "Creator2", "Creator3"],
+    "verifier": "Verifier",
+    "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+    "percentToQualify": 56,
+    "password": "Not Copyable",
     "records": [
         {
         }
