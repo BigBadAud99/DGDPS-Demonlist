@@ -43,7 +43,7 @@ export default {
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">Points when completed</div>
+                            <div class="type-title-sm">Poin:</div>
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
@@ -51,14 +51,14 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
+                            <div class="type-title-sm">Kata sandi</div>
+                            <p>{{ level.password || 'Gratis copy' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
-                    <p v-else>This level does not accept new records.</p>
+                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> atau lebih baik untuk kualifikasi</p>
+                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> atau lebih baik untuk kualifikasi</p>
+                    <p v-else>Level ini tidak menerima rekor baru.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
@@ -98,30 +98,30 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3>Submission Requirements</h3>
+                    <h3>Persyaratan pengiriman</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        Mencapai rekor tanpa menggunakan hack (namun, bypass FPS diperbolehkan, hingga 360fps)
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        Mencapai rekor pada level yang tercantum di situs - harap periksa ID level sebelum kamu mengirimkan rekor
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                        Memiliki audio sumber atau klik/sentuhan dalam video. Hanya audio yang diedit tidak dihitung
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
+                        Rekaman harus memiliki attempts sebelumnya dan animasi kematian secara keseluruhan yang ditampilkan sebelum penyelesaian, kecuali penyelesaian dilakukan pada attempt pertama. Setiap rekaman permainan dikecualikan dari hal ini
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                        Rekaman juga harus menunjukkan pemain menabrak dinding ujung (akhir level), atau penyelesaian akan dibatalkan.
                     </p>
                     <p>
-                        Do not use secret routes or bug routes
+                        Jangan gunakan rute rahasia atau rute bug
                     </p>
                     <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
+                        Jangan gunakan mode mudah, hanya catatan level yang tidak dimodifikasi yang memenuhi syarat
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                        Setelah level jatuh ke daftar legasi, kami menerima rekor untuk level tersebut selama 24 jam setelah jatuh, kemudian setelah itu kami tidak akan pernah menerima rekor untuk level tersebut
                     </p>
                 </div>
             </div>
