@@ -53,6 +53,7 @@ export default {
                         <li>
                             <div class="type-title-sm">Kata sandi</div>
                             <p>{{ level.password || 'Gratis copy' }}</p>
+                        <li>
                         <div class="type-title-sm">Demon difficulty</div>
                             <p>{{ level.difficulty || 'Demon' }}</p>
                         </li>
