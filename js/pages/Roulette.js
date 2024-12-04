@@ -24,7 +24,7 @@ export default {
                         <input type="checkbox" id="extended" value="Extended List" v-model="useExtendedList">
                         <label for="extended">List tambahan</label>
                     </div>
-                    <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Start' : 'Restart'}}</Btn>
+                    <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Mulai' : 'Ulangi'}}</Btn>
                 </form>
                 <p class="type-label-md" style="color: #aaa">
                     Roulette menyimpan secara otomatis.
