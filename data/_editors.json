@@ -1,27 +1,17 @@
 [
     {
         "role": "owner",
-        "name": "Voiddle",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "name": "DAuditor617",
+        "link": "https://youtube.com/@dauditor617?si=WT9ryTAt_IbFDUvK"
+    },
+    {
+        "role": "owner",
+        "name": "Danz 1080p",
+        "link": "https://youtube.com/@danz1080p?si=D4-pS5bVmwteiKTO"
     },
     {
         "role": "admin",
-        "name": "voiddle",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
-    },
-    {
-        "role": "helper",
-        "name": "also Voiddle",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
-    },
-    {
-        "role": "trial",
-        "name": "Voiddle+",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
-    },
-    {
-        "role": "dev",
-        "name": "elddioV",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "name": "GdCat 1122",
+        "link": "https://youtube.com/@gdcat1122?si=lgdGE3yG9plOs0kz"
     }
 ]
