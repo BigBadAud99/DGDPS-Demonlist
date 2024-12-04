@@ -1,12 +1,12 @@
 {
-    "id": 5155022,
-    "name": "Acropolis",
-    "author": "Zobros",
-    "creators": ["Zobros"],
-    "verifier": "Voiddle",
+    "id": 17,
+    "name": "Demonic",
+    "author": "PrimeraGDPS",
+    "creators": [],
+    "verifier": "PrimeraGDPS",
     "difficulty": "extreme demon",
-    "verification": "https://www.youtube.com/watch?v=4v39XU7LW7M",
-    "percentToQualify": "100",
-    "password": "Free to Copy",
+    "verification": "",
+    "percentToQualify": "32",
+    "password": "Gratis copy",
     "records": []
 }
