@@ -137,7 +137,7 @@ export default {
             return this.progression[this.progression.length - 1] || 0;
         },
         placeholder() {
-            return `At least ${this.currentPercentage + 1}%`;
+            return `Minimal ${this.currentPercentage + 1}%`;
         },
         hasCompleted() {
             return (
@@ -159,7 +159,7 @@ export default {
         getYoutubeIdFromUrl,
         async onStart() {
             if (this.isActive) {
-                this.showToast('Give up before starting a new roulette.');
+                this.showToast('Menyerahlah sebelum memulai yang roulette yg baru.');
                 return;
             }
 
@@ -174,7 +174,7 @@ export default {
             if (fullList.filter(([_, err]) => err).length > 0) {
                 this.loading = false;
                 this.showToast(
-                    'List is currently broken. Wait until it\'s fixed to start a roulette.',
+                    'List saat ini rusak. Tunggu hingga diperbaiki untuk memulai permainan roulette.',
                 );
                 return;
             }
@@ -236,7 +236,7 @@ export default {
         onImport() {
             if (
                 this.isActive &&
-                !window.confirm('This will overwrite the currently running roulette. Continue?')
+                !window.confirm('Ini akan menimpa roulette yang sedang berjalan. Lanjutkan?')
             ) {
                 return;
             }
