@@ -55,7 +55,7 @@ export default {
                             <p>{{ level.password || 'Gratis copy' }}</p>
                         </li>
                     </ul>
-                    <h2>Records</h2>
+                    <h2>Rekor</h2>
                     <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> atau lebih baik untuk kualifikasi</p>
                     <p v-else-if="selected +1 <= 150"><strong>100%</strong> atau lebih baik untuk kualifikasi</p>
                     <p v-else>Level ini tidak menerima rekor baru.</p>
