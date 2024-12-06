@@ -102,7 +102,7 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3<Catatan</h4>
+                    <h3<Catatan</h3>
                     <p>
                         Peringkatnya mungkin tidak akurat, saya (Dittor76) hanya memprogram untuk membuat website ini, yg lainnya seperti posisi demon berasal dari opini DanzGDPS atau org lain, jadi jika kamu tidak setuju dengan sebuah level seperti misrate, jangan salahkan saya :')
                     </p>
