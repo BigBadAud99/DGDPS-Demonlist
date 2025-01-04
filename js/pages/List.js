@@ -103,7 +103,7 @@ export default {
                         </ol>
                     </template>
                     <h3>Catatan</h3>
-                    <p>Peringkatnya mungkin tidak akurat, saya (Dittor76) hanya memprogram untuk membuat website ini, yg lainnya seperti posisi demon berasal dari opini DanzGDPS atau org lain, jadi jika kamu tidak setuju dengan sebuah level seperti misrate, jangan salahkan saya :')</p>
+                    <p>Peringkatnya mungkin tidak akurat, saya (Dittor76) hanya memprogram untuk membuat website ini, yg lainnya seperti posisi demon berasal dari opini org lain, jadi jika kamu tidak setuju dengan sebuah level seperti misrate atau posisi, jangan salahkan saya :')</p>
                     <h3>Persyaratan pengiriman</h3>
                     <p>
                         Mencapai rekor tanpa menggunakan hack (namun, bypass FPS diperbolehkan, hingga 360fps)
